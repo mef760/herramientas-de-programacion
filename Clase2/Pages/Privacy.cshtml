@@ -1,0 +1,28 @@
+﻿@page
+@model PrivacyModel
+@{
+    // esto es un comentario
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+
+<!-- esto es comentario en html -->
+<form method="post">
+  <div class="mb-3">
+    <label asp-for="Data.Mail" class="form-label"></label>
+    <input type="email" class="form-control" asp-for="Data.Mail">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Data.Password" class="form-label"></label>
+    <input type="text" class="form-control" asp-for="Data.Password">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

@@ -1,0 +1,23 @@
+﻿@page
+@model Clase1.Pages.ProfesorModel
+@{
+}
+
+
+<h1>Esta la pagina del profesor</h1>
+
+<ul>
+  @foreach (var item in Model.Lista)
+  {
+    <li>@item.Name</li>
+  }
+</ul>
+<form method="post">
+  <div class="form-group">
+    <label asp-for="Data.Name" class="form-label"></label>
+    <input asp-for="Data.Name" class="form-control" />
+    <span asp-validation-for="Data.Name" class="text-danger"></span>
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

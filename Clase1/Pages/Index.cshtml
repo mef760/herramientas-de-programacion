@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    var mensaje = "Este es un mensaje de prueba";
+}
+
+<form class="row g-3">
+  <div class="col-auto">
+    <input type="text" class="form-control" id="inputPassword2" placeholder="Password" value="@Model.Name">
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">Confirm</button>
+  </div>
+</form>
