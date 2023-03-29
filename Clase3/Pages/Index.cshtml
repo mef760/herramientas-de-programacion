@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Peliculas</h1>
+</div>
+
+<ul>
+    @foreach (var item in Model.MovieList)
+    {
+        <li><a asp-page="MovieDetail" asp-route-code="@item.Code">@item.Name</a></li>
+    }
+</ul>
+
+<form method="post">
+  <div class="mb-3">
+    <label asp-for="NewMovie.Code" class="form-label"></label>
+    <input type="text" class="form-control" asp-for="NewMovie.Code">
+  </div>
+  <div class="mb-3">
+    <label asp-for="NewMovie.Name" class="form-label"></label>
+    <input type="text" class="form-control" asp-for="NewMovie.Name">
+  </div>
+  <div class="mb-3">
+    <label asp-for="NewMovie.Category" class="form-label"></label>
+    <input type="text" class="form-control" asp-for="NewMovie.Category">
+  </div>
+   <div class="mb-3">
+    <label asp-for="NewMovie.Minutes" class="form-label"></label>
+    <input type="number" class="form-control" asp-for="NewMovie.Minutes">
+  </div>
+   <div class="mb-3">
+    <label asp-for="NewMovie.Review" class="form-label"></label>
+    <textarea class="form-control" asp-for="NewMovie.Review" cols="5"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Crear</button>
+</form>

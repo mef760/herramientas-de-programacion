@@ -1,0 +1,31 @@
+﻿@page
+@model Clase3.Pages.MovieDetailModel
+@{
+}
+
+<h3>@Model.MovieDetail.Name</h3>
+
+<div>
+    <span>Duracion: </span>
+    <span>@Model.MovieDetail.Minutes</span><span> minutos.</span>
+</div>
+<div>
+    <span>Categoria: </span>
+    <span>@Model.MovieDetail.Category</span>
+</div>
+
+@if(!string.IsNullOrEmpty(Model.MovieDetail.Review)){
+<div>
+    <span>Review: </span>
+    <span>@Model.MovieDetail.Review</span>
+</div>
+}
+
+<form 
+    method="post" 
+    asp-page-handler="delete" 
+    asp-route-code="@Model.MovieDetail.Code"
+    onsubmit="return confirm('Estas seguro de eliminar esta pelicula?')">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+</form>
+

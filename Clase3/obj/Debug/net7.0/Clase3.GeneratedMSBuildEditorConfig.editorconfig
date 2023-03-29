@@ -7,43 +7,43 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = clase2
-build_property.RootNamespace = clase2
-build_property.ProjectDir = /Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/
+build_property.RootNamespace = Clase3
+build_property.RootNamespace = Clase3
+build_property.ProjectDir = /Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2
+build_property.MSBuildProjectDirectory = /Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/Error.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/Index.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/Privacy.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/MovieDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/Shared/_Formulario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Gb3JtdWxhcmlvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/_ViewImports.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/_ViewStart.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase2/Pages/Shared/_Layout.cshtml]
+[/Users/fondo/Documents/Proyects/HerramientasDeProgramacion/Clase3/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-g75yhh1s20
+build_metadata.AdditionalFiles.CssScope = b-8h3lxn96yc
