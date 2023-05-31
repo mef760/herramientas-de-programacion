@@ -1,0 +1,14 @@
+@using Microsoft.AspNetCore.Identity
+@model List<IdentityUser> 
+
+<h3>Users</h3>
+
+<ul>
+@foreach (var item in Model)
+{
+    <li>
+        @item.UserName | <a asp-action="Edit" asp-route-id="@item.Id">Asignar Role</a>   
+    </li>
+    
+}
+</ul>
